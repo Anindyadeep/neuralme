@@ -10,7 +10,7 @@ from custom_data_img import *
 def visualise(choice):
     if choice == 'Visualisations':
         st.subheader("The Plot of the data and visualisation")
-        given_options = ['Titanic', 'Breast Cancer', 'Lungs']
+        given_options = ['Titanic', 'Breast Cancer']
         option = st.selectbox("Please select the .csv datasets: ", given_options)
 
         if option == 'Titanic':
